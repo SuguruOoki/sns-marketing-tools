@@ -153,6 +153,7 @@ def get_items(base_url, key_word, parser, logged_in_driver):
 
 def login_pinterest(driver, login_url, user, password):
   print('login_pinterest get')
+
   print(login_url)
   test=driver.get('https://www.pinterest.jp/')
   print(test)
